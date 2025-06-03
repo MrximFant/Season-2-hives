@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hive Strategy Planner</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <h1>Hive Layout Visualizer</h1>
+    <div class="controls">
+        <label for="layoutSelect">Choose Layout:</label>
+        <select id="layoutSelect">
+            <option value="corner">Corner Fortress</option>
+            <option value="ring">Buffered Ring (MUD Centric)</option>
+        </select>
+        <button id="drawButton">Draw Hive</button>
+        <button id="clearButton">Clear Grid</button>
+    </div>
+    <div id="grid-container">
+        <!-- The grid will be generated here by JavaScript -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
