@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#grid-container {
+    display: grid;
+    border: 1px solid #ccc;
+    /* Grid dimensions will be set by JavaScript */
+}
+
+.grid-cell {
+    /* width and height will be set by JavaScript to make them square */
+    border: 1px solid #eee; /* Light border for individual cells */
+    box-sizing: border-box; /* Important for borders not to add to size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px; /* For labels inside cells */
+}
+
+/* --- Define Colors for Structures --- */
+.ct-tile { background-color: #A52A2A; color: white; } /* Brownish-Red */
+.mud-tile { background-color: #E0E0E0; } /* Light Grey (optional BG) */
+.furnace-tile { background-color: #FF0000; color: white; } /* Red */
+.mg-tile { background-color: #808080; color: white; } /* Grey */
+
+/* Alliance Colors (add more as needed) */
+.alliance1-base { background-color: #FFC0CB; } /* Pink */
+.alliance2-base { background-color: #ADD8E6; } /* Light Blue */
+.alliance3-base { background-color: #90EE90; } /* Light Green */
+.alliance4-base { background-color: #FFD700; } /* Gold */
+.alliance5-base { background-color: #FFA07A; } /* Light Salmon */
+.alliance6-base { background-color: #DA70D6; } /* Orchid */
+.alliance7-base { background-color: #B0E0E6; } /* Powder Blue */
+.alliance8-base { background-color: #F0E68C; } /* Khaki */
+
+/* Add classes for other structure types if needed */
